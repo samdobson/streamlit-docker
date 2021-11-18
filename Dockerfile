@@ -1,4 +1,4 @@
-FROM python:3.8-buster
+FROM python:3.10-slim
 EXPOSE 8501
 WORKDIR /usr/src/app
 COPY requirements.txt ./
