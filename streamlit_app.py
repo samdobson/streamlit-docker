@@ -53,7 +53,7 @@ THEMES = [
 
 KEYBINDINGS = ["emacs", "sublime", "vim", "vscode"]
 
-display, editor = st.beta_columns((2, 1))
+display, editor = st.columns((2, 1))
 
 INITIAL_CODE = """st.header("Streamlit in Docker")
 st.write("If you are seeing this message, your Streamlit container is running!")
